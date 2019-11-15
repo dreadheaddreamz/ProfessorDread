@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
-require './lib/environment'
+require_relative './lib/environment'
 
 ProfessorDread::CLI.new.call
