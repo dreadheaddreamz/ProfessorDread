@@ -43,10 +43,10 @@ class ProfessorDread::CLI
 
     
     def poke_choice
-        puts "What Pokémon would you like data on?"
+        puts "What Pokémon would you like information on?"
         input = gets.chomp
         if valid?(input)
-            puts "Here is the requested data on #{input.upcase}"
+            puts "Here is the requested info on #{input.upcase}"
             get_details(input)
             display_pokemon(@pk)
         else
@@ -59,7 +59,7 @@ class ProfessorDread::CLI
   
     def valid?(input)
         if !@pokemon.find { |poke| poke.name == input}
-            puts "Please enter a valid Pokémon name"
+            puts "Please enter a valid Pokémon"
         elsif input == "end"
             exit_text
             sleep(2)
