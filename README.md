@@ -21,7 +21,7 @@ Or install it yourself as:
 ## Usage
 
 To Run the gem type bin/ProfessorDread into your terminal. There will be a list of Pokémon that comes up. Type the name of the Pokémon
-you would like data on.
+you would like data on. The name, Height and weight will be returned. From that screen you can input Types, Abilities, Moves, and version.
 
 ## Devolopment
 
