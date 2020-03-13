@@ -114,7 +114,9 @@ class ProfessorDread::CLI
         puts "Would you like data on another Pokémon yes or no?"
         input = gets.chomp
         if input == "yes"
-            call
+            #call
+            show_pokemon
+            poke_choice
         else
             exit_text
         end
