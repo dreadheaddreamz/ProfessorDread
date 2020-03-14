@@ -117,7 +117,7 @@ class ProfessorDread::CLI
             #call
             show_pokemon
             poke_choice
-        else
+       else
             exit_text
         end
     end

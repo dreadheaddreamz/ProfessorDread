@@ -2,7 +2,7 @@ class ProfessorDread::API
     attr_reader :details
 
     def fetch
-        url = "https://pokeapi.co/api/v2/pokemon?limit=600"
+        url = "https://pokeapi.co/api/v2/pokemon?limit=700"
         response = HTTParty.get(url)
         response["results"].each do |poke|
         name = poke["name"]
